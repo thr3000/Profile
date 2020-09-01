@@ -6,15 +6,22 @@
 
 .verticalline {
   position: absolute;
-  left: 60%;
+  left: 55%;
   border-left: 2px solid lightgray;
   height: 98%;
+}
+
+.container {
+  max-width: 40rem;
+  padding: 3rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
   position: absolute;
   width: 700px;
-  left: 13%;
+  left: 12%;
   top: 34%;
   font-size: 30px;
   line-height: 2;
@@ -23,7 +30,7 @@
 
 .menu {
   position: absolute;
-  left: 13%;
+  left: 12%;
   top: 59%
 }
 
@@ -37,4 +44,9 @@ button {
   font-family: "Source Sans Pro";
   font-size: 30px;
   width: 150px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Lucida Console", Courier, monospace;
 }

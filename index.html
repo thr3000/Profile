@@ -4,18 +4,23 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<img src="image/name.png" class="name">
-<div class="verticalline"></div>
-<div class="intro">
-  Hey! I'm Baoying Feng :)<br>
-  I'm a <div style="color: lightblue; display: inline;">Computer Science</div> student in University of Arizona.
-</div>
-<div class="menu">
-  <button id="about">About</button>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <button id="project">Project</button>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <button id="contact">Contact</button>
-</div>
+  <img src="image/name.png" class="name">
+  <div class="verticalline"></div>
+  <div class="intro">
+    Hey! I'm Baoying Feng :)<br>
+    I'm a
+    <div style="color: lightblue; display: inline; cursor: pointer;" onclick="jump(4)">
+      Computer Science
+    </div>
+    student in University of Arizona.
+  </div>
+  <div class="menu">
+    <button onclick="jump(1)">About</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="jump(2)">Project</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="jump(3)">Contact</button>
+  </div>
+  <script src="function.js"></script>
 </body>
 </html>
