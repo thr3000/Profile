@@ -20,18 +20,12 @@
 
 .intro {
   position: absolute;
-  width: 700px;
+  width: 35%;
   left: 12%;
-  top: 34%;
-  font-size: 30px;
+  top: 32%;
+  font-size: 200%;
   line-height: 2;
   font-family: "Lucida Console", Courier, monospace;
-}
-
-.menu {
-  position: absolute;
-  left: 12%;
-  top: 59%
 }
 
 button {
