@@ -28,6 +28,22 @@
   font-family: "Lucida Console", Courier, monospace;
 }
 
+.score {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+}
+
+.description {
+  position: absolute;
+  right: 5%;
+  top: 9%;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+}
+
 button {
   background-color: white;
   color: black;
