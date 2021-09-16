@@ -5,16 +5,16 @@ function copy() {
 
 var path = window.location.pathname;
 if (path.includes("index")) {
-    document.getElementById("index").style.color = "white";
+    document.getElementById("index").style.color = "#1ABC9C";
 }
 else if (path.includes("about")) {
-    document.getElementById("about").style.color = "white";
+    document.getElementById("about").style.color = "#1ABC9C";
 }
 else if (path.includes("projects")) {
-    document.getElementById("project").style.color = "white";
+    document.getElementById("project").style.color = "#1ABC9C";
 }
 else if (path.includes("contact")) {
-    document.getElementById("contact").style.color = "white";
+    document.getElementById("contact").style.color = "#1ABC9C";
 }
 
 window.addEventListener('resize', reportWindowSize);
