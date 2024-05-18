@@ -1,0 +1,111 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    background-color: #e5d0cc;
+    color: #172121;
+}
+
+header {
+    background-color: #E5D0CC;
+    padding: 1em 0;
+    text-align: center;
+    color: #172121;
+    border-bottom: 1px solid #444554;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0;
+    font-size: 1em;
+    color: #7f7b82;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #E5D0CC;
+    border-bottom: 1px solid #444554;
+}
+
+.nav-link {
+    color: #172121 !important;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.nav-link + .nav-link {
+    border-left: 1px solid #444554;
+}
+
+.nav-link:hover {
+    background-color: #bfacb5;
+    color: #fff !important;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-item {
+    background-color: #E5D0CC;
+    border: 1px solid #444554;
+}
+
+.btn-primary {
+    background-color: #444554;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #172121;
+}
+
+.btn-secondary {
+    background-color: #7f7b82;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #444554;
+}
+
+.progress {
+    height: 20px;
+    background-color: #bfacb5;
+}
+
+.progress-bar {
+    background-color: #444554;
+}
+
+.container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+
+section {
+    margin-bottom: 3em;
+}
+
+.about-section {
+    border-bottom: 2px solid #444554;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    background-color: #444554;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
